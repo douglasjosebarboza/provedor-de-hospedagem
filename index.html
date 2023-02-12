@@ -13,7 +13,7 @@
 <body>
     <header>
         <div class="container-limited">
-            <section>
+            <section class="topo">
                 <div class="logo-slogan">
                     <div class="logo">
                         <img src="assets/logo-icone.png" alt="Logo Empresa">
@@ -29,11 +29,19 @@
                     </div>
                 </div>
                 <nav>
-                    <ul>
-                        <li class="uppercase">informações</li>
-                        <li class="uppercase">planos</li>
-                        <li class="uppercase">preços</li>
-                        <li class="uppercase">contato</li>
+                    <ul type="none">
+                        <li class="uppercase">
+                            <a href="#informacao">informações</a>
+                        </li>
+                        <li class="uppercase">
+                            <a href="#planos">planos</a>
+                        </li>
+                        <li class="uppercase">
+                            <a href="">preços</a>
+                        </li>
+                        <li class="uppercase">
+                            <a href="#contato">contato</a>
+                        </li>
                     </ul>
                 </nav>
             </section>
@@ -41,135 +49,140 @@
     </header>
 
     <main>
-        <div class="container-limited">
-            <section class="banner">
+        <section class="container-banner">
+            <div class="container-limited">
+                <div class="banner">
+                    <div class="infos">
+                        <p>
+                            Simples - Fácil de usar -10x mais rápido!
+                        </p>
+                        <h2>
+                            O melhor serviço de hospedagem na web para o seu site.
+                        </h2>
+                        <p>
+                            Obtenha a melhor velocidade para o seu site. Não perca mais cliente por causa de lentidão na sua hospedagem.
+                        </p>
+                    </div>
+                    <div class="image-banner">
+                        <img src="assets/imagem-banner.png" alt="Imagem do Banner">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ad-um" class="anuncio">
+            <div class="container-limited">
                 <div class="infos">
-                    <p>
-                        Simples - Fácil de usar -10x mais rápido!
-                    </p>
-                    <h2>
-                        O melhor serviço de hospedagem na web para o seu site.
-                    </h2>
-                    <p>
-                        Obtenha a melhor velocidade para o seu site. Não perca mais cliente por causa de lentidão na sua hospedagem.
-                    </p>
+                    <div>
+                        <h2>
+                            Hospede o seu site por apenas R$29 por mês
+                        </h2>
+                        <p>
+                            Também temos planos gratuitos. Adquira já o seu.
+                        </p>
+                    </div>
+                    <a class="uppercase" href="">Tabela de preços</a>
                 </div>
+            </div>
+        </section>
 
-                <div class="image-banner">
-                    <img src="assets/imagem-banner.png" alt="Imagem do Banner">
-                </div>
-            </section>
-
-            <section id="ad-1" class="anuncio">
-                <div class="infos">
-                    <h2>
-                        Hospede o seu site por apenas R$29 por mês
-                    </h2>
-                    <p>
-                        Também temos planos gratuitos. Adquira já o seu.
-                    </p>
-                </div>
-
-                <figure class="button">
-                    <img src="assets/icone-foguete.png" alt="Foguete">
-                    <figcaption class="uppercase">
-                        Tabela de preços
-                    </figcaption>
-                </figure>
-            </section>
-
-            <section class="informacoes">
+        <section id="informacao">
+            <div class="container-limited">
                 <h2>
                     Existem diversos serviços de hospedagem de sites.
                     Porque você deve <span>nos escolher?</span>
                 </h2>
+            </div>
 
-                <div class="container-infos">
-                    <div>
-                        <div class="infos-img">
-                            <img src="assets/icone-engrenagens.png" alt="Engrenagem">
+            <div>
+                <div class="container-limited">
+                    <div class="container-infos">
+                        <div>
+                            <div class="infos-img">
+                                <img src="assets/icone-engrenagens.png" alt="Engrenagem">
+                            </div>
+                            <div class="infos-title-desc">
+                                <h3>
+                                    Fácil de configurar
+                                </h3>
+                                <p>
+                                    Facilmente configurável em plataformas CMS populares - Wordpress, Joomia...
+                                </p>
+                            </div>
                         </div>
-                        <div class="infos-title-desc">
-                            <h3>
-                                Fácil de configurar
-                            </h3>
-                            <p>
-                                Facilmente configurável em plataformas CMS populares - Wordpress, Joomia...
-                            </p>
+                        <div>
+                            <div class="infos-img">
+                                <img src="assets/cloud-icone.png" alt="Nuvem">
+                            </div>
+                            <div class="infos-title-desc">
+                                <h3>
+                                    Servidores 100% Online
+                                </h3>
+                                <p>
+                                    Serviçõs que operam 100% do tempo para manter o seu site online...
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <div class="infos-img">
-                            <img src="assets/cloud-icone.png" alt="Nuvem">
-                        </div>
-                        <div class="infos-title-desc">
-                            <h3>
-                                Servidores 100% Online 
-                            </h3>
-                            <p>
-                                Serviçõs que operam 100% do tempo para manter o seu site online...
-                            </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="infos-img">
-                            <img src="assets/icone-suporte.png" alt="Suporte">
-                        </div>
-                        <div class="infos-title-desc">
-                            <h3>
-                                Suporte 24/7
-                            </h3>
-                            <p>
-                                Suporte altamente treinado e especializado em soluções de Cloud
-                            </p>
+                        <div>
+                            <div class="infos-img">
+                                <img src="assets/icone-suporte.png" alt="Suporte">
+                            </div>
+                            <div class="infos-title-desc">
+                                <h3>
+                                    Suporte 24/7
+                                </h3>
+                                <p>
+                                    Suporte altamente treinado e especializado em soluções de Cloud
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </section>
+        </section>
 
-            <section class="planos">
+        <section id="planos">
+            <div class="container-limited">
                 <h2>
                     Pague <span>somente</span> pelo que for usar. Sem cobranças adicionais!
                 </h2>
-
                 <table>
                     <thead>
                         <tr>
                             <th>
-                                <h3 class="uppercase">
-                                    Pessoal
-                                </h3>
-                                <figure>
+                                <div>
+                                    <h3 class="uppercase">
+                                        Pessoal
+                                    </h3>
                                     <img src="assets/pessoal-icone.png" alt="">
-                                    <figcaption>Indicado para uso pessoal</figcaption>
-                                </figure>
+                                    <small>Indicado para uso pessoal</small>
+                                </div>
                             </th>
                             <th>
-                                <h3 class="uppercase">
-                                    Profissional
-                                </h3>
-                                <figure>
+                                <div>
+                                    <h3 class="uppercase">
+                                        Profissional
+                                    </h3>
                                     <img src="assets/equipe-icone.png" alt="">
-                                    <figcaption>Indicado para profissionais de T.I</figcaption>
-                                </figure>
+                                    <small>Indicado para profissionais de T.I</small>
+                                </div>
                             </th>
                             <th>
-                                <h3 class="uppercase">
-                                    Empresarial
-                                </h3>
-                                <figure>
+                                <div>
+                                    <h3 class="uppercase">
+                                        Empresarial
+                                    </h3>
                                     <img src="assets/empresa-icone.png" alt="">
-                                    <figcaption>Indicado para empresas</figcaption>
-                                </figure>
+                                    <small>Indicado para empresas</small>
+                                </div>
                             </th>
                             <th>
-                                <h3 class="uppercase">
-                                    Big Techs
-                                </h3>
-                                <figure>
+                                <div>
+                                    <h3 class="uppercase">
+                                        Big Techs
+                                    </h3>
                                     <img src="assets/big-tech.png" alt="">
-                                    <figcaption>Indicado para grandes empresas</figcaption>
-                                </figure>
+                                    <small>Indicado para grandes empresas</small>
+                                </div>
                             </th>
                         </tr>
                     </thead>
@@ -206,28 +219,26 @@
                         </tr>
                     </tbody>
                 </table>
-            </section>
+            </div>
+        </section>
 
-            <section id="ad-2" class="anuncio">
-                <h2>
-                    Mais de 200.000 pessoas confiam na Spark!
-                    <br>
-                    Seja um deles você também!
-                </h2>
-
-                <figure class="button">
-                    <img src="assets/icone-foguete.png" alt="Foguete">
-                    <figcaption class="uppercase">
-                        Tabela de preços
-                    </figcaption>
-                </figure>
-            </section>
-        </div>
+        <section id="ad-dois" class="anuncio">
+            <div class="container-limited">
+                <div class="infos">
+                    <h2>
+                        Mais de 200.000 pessoas confiam na Spark!
+                        <br>
+                        Seja um deles você também!
+                    </h2>
+                    <a class="uppercase" href="">Tabela de preços</a>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
         <div class="container-limited">
-            <section>
+            <section id="contato">
                 <div class="logo-slogan">
                     <div class="logo">
                         <img src="assets/logo-icone.png" alt="Logo Empresa">
@@ -258,11 +269,11 @@
                     </p>
                 </div>
             </section>
+        </div>
 
             <section class="autor">
-                Desenvolvido por <span><a href="">Douglas José Barboza</a></span>
+                <p>Desenvolvido por <a href="https://github.com/douglasjosebarboza"><span></span>Douglas José Barboza</span></a></p>
             </section>
-        </div>
     </footer>
 </body>
 </html>
