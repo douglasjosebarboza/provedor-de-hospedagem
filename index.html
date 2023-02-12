@@ -13,7 +13,7 @@
 <body>
     <header>
         <div class="container-limited">
-            <section>
+            <div class="logo-slogan">
                 <div class="logo">
                     <img src="assets/logo-icone.png" alt="Logo Empresa">
                 </div>
@@ -26,14 +26,14 @@
                         Soluções em hospedagem
                     </p>
                 </div>
-            </section>
+            </div>
 
             <nav>
                 <ul>
-                    <li>informações</li>
-                    <li>planos</li>
-                    <li>preços</li>
-                    <li>contato</li>
+                    <li class="uppercase">informações</li>
+                    <li class="uppercase">planos</li>
+                    <li class="uppercase">preços</li>
+                    <li class="uppercase">contato</li>
                 </ul>
             </nav>
         </div>
@@ -44,7 +44,7 @@
             <section class="banner">
                 <div class="infos">
                     <p>
-                        Simples -Fácil de usar -10x mais rápido!
+                        Simples - Fácil de usar -10x mais rápido!
                     </p>
                     <h2>
                         O melhor serviço de hospedagem na web para o seu site.
@@ -69,28 +69,198 @@
                     </p>
                 </div>
 
-                <button>
-                    Tabela de Preços
-                </button>
+                <figure class="button">
+                    <img src="assets/icone-foguete.png" alt="Foguete">
+                    <figcaption class="uppercase">
+                        Tabela de preços
+                    </figcaption>
+                </figure>
             </section>
 
             <section class="informacoes">
-                
+                <h2>
+                    Existem diversos serviços de hospedagem de sites.
+                    Porque você deve <span>nos escolher?</span>
+                </h2>
+
+                <div class="container-infos">
+                    <div>
+                        <div class="infos-img">
+                            <img src="assets/icone-engrenagens.png" alt="Engrenagem">
+                        </div>
+                        <div class="infos-title-desc">
+                            <h3>
+                                Fácil de configurar
+                            </h3>
+                            <p>
+                                Facilmente configurável em plataformas CMS populares - Wordpress, Joomia...
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="infos-img">
+                            <img src="assets/cloud-icone.png" alt="Nuvem">
+                        </div>
+                        <div class="infos-title-desc">
+                            <h3>
+                                Servidores 100% Online 
+                            </h3>
+                            <p>
+                                Serviçõs que operam 100% do tempo para manter o seu site online...
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="infos-img">
+                            <img src="assets/icone-suporte.png" alt="Suporte">
+                        </div>
+                        <div class="infos-title-desc">
+                            <h3>
+                                Suporte 24/7
+                            </h3>
+                            <p>
+                                Suporte altamente treinado e especializado em soluções de Cloud
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <section class="planos">
+                <h2>
+                    Pague <span>somente</span> pelo que for usar. Sem cobranças adicionais!
+                </h2>
 
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                <h3 class="uppercase">
+                                    Pessoal
+                                </h3>
+                                <figure>
+                                    <img src="assets/pessoal-icone.png" alt="">
+                                    <figcaption>Indicado para uso pessoal</figcaption>
+                                </figure>
+                            </th>
+                            <th>
+                                <h3 class="uppercase">
+                                    Profissional
+                                </h3>
+                                <figure>
+                                    <img src="assets/equipe-icone.png" alt="">
+                                    <figcaption>Indicado para profissionais de T.I</figcaption>
+                                </figure>
+                            </th>
+                            <th>
+                                <h3 class="uppercase">
+                                    Empresarial
+                                </h3>
+                                <figure>
+                                    <img src="assets/empresa-icone.png" alt="">
+                                    <figcaption>Indicado para empresas</figcaption>
+                                </figure>
+                            </th>
+                            <th>
+                                <h3 class="uppercase">
+                                    Big Techs
+                                </h3>
+                                <figure>
+                                    <img src="assets/big-tech.png" alt="">
+                                    <figcaption>Indicado para grandes empresas</figcaption>
+                                </figure>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1 usuário</td>
+                            <td>10 usuário</td>
+                            <td>25 usuário</td>
+                            <td>50 usuário</td>
+                        </tr>
+                        <tr>
+                            <td>1 domínio grátis</td>
+                            <td>2 domínio grátis</td>
+                            <td>2 domínio grátis</td>
+                            <td>3 domínio grátis</td>
+                        </tr>
+                        <tr>
+                            <td>200GB SSD espaço</td>
+                            <td>500GB SSD espaço</td>
+                            <td>1TB SSD espaço</td>
+                            <td>2TB SSD espaço</td>
+                        </tr>
+                        <tr>
+                            <td>Ofertas especiais</td>
+                            <td>Ofertas especiais</td>
+                            <td>Ofertas especiais</td>
+                            <td>Ofertas especiais</td>
+                        </tr>
+                        <tr>
+                            <td>Suporte limitado</td>
+                            <td>Suporte ilimitado</td>
+                            <td>Suporte ilimitado</td>
+                            <td>Suporte ilimitado</td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
 
             <section id="ad-2" class="anuncio">
+                <h2>
+                    Mais de 200.000 pessoas confiam na Spark!
+                    <br>
+                    Seja um deles você também!
+                </h2>
 
+                <figure class="button">
+                    <img src="assets/icone-foguete.png" alt="Foguete">
+                    <figcaption class="uppercase">
+                        Tabela de preços
+                    </figcaption>
+                </figure>
             </section>
         </div>
     </main>
 
     <footer>
         <div class="container-limited">
-            
+            <section>
+                <div class="logo-slogan">
+                    <div class="logo">
+                        <img src="assets/logo-icone.png" alt="Logo Empresa">
+                    </div>
+                
+                    <div class="Slogan">
+                        <h1>
+                            AlfaTech
+                        </h1>
+                        <p>
+                            Soluções em hospedagem
+                        </p>
+                    </div>
+                </div>
+
+                <div class="contatos-endereço">
+                    <p>
+                        Telefone & Whatsapp: (21) 99999-5555
+                    </p>
+                    <p>
+                        E-mail: suporte@alfatech.com
+                    </p>
+                    <p>
+                        Endereço: Av Ayrton Senna, 3000 - Barra da Tijuca - Rio de Janeiro
+                    </p>
+                    <p>
+                        &copy; AlfaTech - Soluções em hospedagem - Todos os direitos reservados
+                    </p>
+                </div>
+            </section>
+
+            <section class="autor">
+                Desenvolvido por <span><a href="">Douglas José Barboza</a></span>
+            </section>
         </div>
     </footer>
 </body>
