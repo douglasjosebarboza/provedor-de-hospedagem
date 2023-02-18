@@ -1,0 +1,71 @@
+header {
+    background-color: #2f86d6;
+}
+
+header .logo-slogan {
+    padding: 40px 0;
+}
+
+.topo {
+    background-color: #2f86d6;
+}
+
+.slogan h1 {
+    font-size: 32px;
+    color: #000000;
+}
+
+.slogan p {
+    color: #fff;
+}
+
+nav ul a {  
+    color: #fff;
+}
+
+
+table {
+    margin: 100px 0;
+}
+
+th {
+    height: 100px;
+}
+
+.vazio {
+    background-color: #fff;
+}
+
+
+tbody td {
+    background-color: #fff;
+}
+
+tbody tr td:first-child {
+    background-color: #f6f6f6;
+    width: 450px;
+}
+
+tbody tr td:first-child:hover {
+    color: #000000;
+}
+
+.circle {
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #2f86d6;
+}
+
+footer {
+    background-color: #2f86d6;
+}
+
+.logo-slogan {
+    padding: 0;
+}
+
+.contatos-endereço {
+    color: #fff
+}

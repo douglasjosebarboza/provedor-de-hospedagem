@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/precos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -13,13 +14,13 @@
 <body>
     <header>
         <div class="container-limited">
-            <section>
-                <div class="logo-slogan-precos">
+            <section class="topo">
+                <div class="logo-slogan">
                     <div class="logo">
                         <img src="../assets/logo-icone-escuro.png" alt="Logo Empresa">
                     </div>
                 
-                    <div class="slogan-precos">
+                    <div class="slogan">
                         <h1>
                             AlfaTech
                         </h1>
@@ -29,18 +30,18 @@
                     </div>
                 </div>
                 <nav>
-                    <ul>
+                    <ul type="none">
                         <li class="uppercase">
-                            <a href="">home</a>
+                            <a href="../index.html#informacao">informações</a>
                         </li>
                         <li class="uppercase">
-                            <a href="">informações</a>
+                            <a href="../index.html#planos">planos</a>
                         </li>
                         <li class="uppercase">
-                            <a href="">planos</a>
+                            <a href="">preços</a>
                         </li>
                         <li class="uppercase">
-                            <a href="">contato</a>
+                            <a href="../index.html#contato">contato</a>
                         </li>
                     </ul>
                 </nav>
@@ -56,33 +57,33 @@
                         <tr>
                             <th class="vazio"></th>
                             <th>
-                                <p>
+                                <small>
                                     pessoal
-                                </p>
+                                </small>
                                  <h2>
                                     grátis
                                  </h2>
                             </th>
                             <th>
-                                <p>
+                                <small>
                                     profissional
-                                </p>
+                                </small>
                                  <h2>
                                     R$29
                                  </h2>
                             </th>
                             <th>
-                                <p>
+                                <small>
                                     empresarial
-                                </p>
+                                </small>
                                  <h2>
                                     R$59
                                  </h2>
                             </th>
                             <th>
-                                <p>
+                                <small>
                                     big techs
-                                </p>
+                                </small>
                                  <h2>
                                     R$99
                                  </h2>
@@ -203,13 +204,13 @@
 
     <footer>
         <div class="container-limited">
-            <section>
+            <section id="contato">
                 <div class="logo-slogan">
                     <div class="logo">
                         <img src="../assets/logo-icone-escuro.png" alt="Logo Empresa">
                     </div>
                 
-                    <div class="slogan-precos">
+                    <div class="slogan">
                         <h1>
                             AlfaTech
                         </h1>
@@ -219,15 +220,17 @@
                     </div>
                 </div>
 
-                <p>
-                    &copy; AlfaTech - Soluções em hospedagem - Todos os direitos reservados
-                </p>
-            </section>
-
-            <section class="autor">
-                Desenvolvido por <span><a href="">Douglas José Barboza</a></span>
+                <div class="contatos-endereço">
+                    <p>
+                        &copy; AlfaTech - Soluções em hospedagem - Todos os direitos reservados
+                    </p>
+                </div>
             </section>
         </div>
+
+        <section class="autor">
+            <p>Desenvolvido por <a href="https://github.com/douglasjosebarboza"><span></span>Douglas José Barboza</span></a></p>
+        </section>
     </footer>
 </body>
 </html>
